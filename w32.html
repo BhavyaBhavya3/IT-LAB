@@ -1,0 +1,136 @@
+<html>
+<head>
+   
+    <title>Form</title>
+   
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+           
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            background-color: #008b05;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="reset"] {
+            background-color: #b30c00;
+        } --> */
+        #footer{
+            position:fixed;
+                padding: 0px 10px 10px 10px;
+                width:100%;
+                background: rgb(241, 138, 138);
+                height:30px;
+                bottom:0px;
+
+        }
+       
+
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label>Gender:</label>
+        <label for="male">
+            <input type="radio"  value="Male" required id="male"  name="gender">Male</label>
+        <label for="female">
+        <input type="radio" id="female" name="gender" value="Female" required>Female</label>
+        <label for="transgender">
+        <input type="radio" id="transgender" name="gender" value="Transgender" required>Transgender</label>
+       
+
+        <label for="email">Email Id:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="phone">Phone No.:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="technologies">Known Technologies:</label>
+       
+            <label for="c">
+                <input type="checkbox" id="c" name="technologies" value="C"> C
+            </label>
+            <label for="java">
+                <input type="checkbox" id="java" name="technologies" value="Java"> Java
+            </label>
+            <label for="angular">
+                <input type="checkbox" id="angular" name="technologies" value="Angular JS"> Angular JS
+            </label>
+            <label for="react">
+                <input type="checkbox" id="react" name="technologies" value="ReactJS"> ReactJS
+            </label>
+            <label for="node">
+                <input type="checkbox" id="node" name="technologies" value="Node.js"> Node.js
+            </label>
+           
+           
+           
+
+        <label for="activities">Extracurricular activities:</label>
+        <textarea id="activities" name="activities" rows="4"></textarea>
+
+        <label for="nationality">Nationality:</label>
+        <select id="nationality" name="nationality">
+            <option value="select">Select</option>
+            <option value="indian">Indian</option>
+            <option value="american">American</option>
+            <option value="other">Other</option>
+        </select>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </form>
+        <div id="footer">
+            <p align="center">&copy; D.BHAVYA all rights-----------reserved 214G1A3208 </p>
+        </div>
+   
+
+</body>
+</html>
