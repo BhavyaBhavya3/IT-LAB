@@ -1,0 +1,48 @@
+#footer{
+    position: fixed;
+    padding: 0px 10px 10px 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    font-size: 15px;
+}
+body,h1,img{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:  sans-serif;
+                background-color: hsl(191, 73%, 45%);
+                color:#333;
+                line-height: 1.6;
+}
+header{
+    background-color: aquamarine;
+    color: #0b0a0a;
+    padding: 0px;
+    text-align: center;
+}
+header h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    padding: 20px;
+}
+h2{
+    margin: 30px;
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+p{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+img{
+    border-radius: 5px;
+    height: 170px;
+    display: black;
+    margin: 0 auto;
+}
